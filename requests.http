@@ -1,0 +1,10 @@
+@subdominio = ec2-EvaLarico
+
+# 1. Mostrar su codigo de IDAT y su nombre completo en el siguiente formato: CODIGO - NOMBRE
+GET https://{{{{subdominio}}}}.onrender.com/
+
+# 2. Mostrar su codigo de IDAT
+GET https://{{{{subdominio}}}}.onrender.com/idat/codigo
+
+# 3. Mostrar su nombre completo
+GET https://{{{{subdominio}}}}.onrender.com/idat/nombrecompleto
